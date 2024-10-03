@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
+    <script type="module" crossorigin src="/vanilla-app-template/gallery.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/styles-0hAi5O9S.js">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-I1I71QQ2.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DgqfjK7L.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DnveWo0P.css">
   </head>
   <body>
     <header class="header">
@@ -18,11 +22,11 @@
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link active" href="./page-2.html">Page 2</a>
+          <a class="nav-link active" href="./gallery.html">Gallery</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
+        </li> -->
       </ul>
     </nav>
   </div>
@@ -30,12 +34,17 @@
 
 
     <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 2
-        </h1>
-        <a class="back-link" href="./index.html">Go back</a>
+      <div class="box">
+        <div class="searchBar">
+          <input type="text" name="searchImages" id="searchImages" placeholder="Search images...">
+          <button type="submit" id="searchBtn">Search</button>
+        </div>
 
+        <div class="galleryBox">
+          <ul class="gallery">
+            
+          </ul>
+        </div>
       </div>
     </main>
 
